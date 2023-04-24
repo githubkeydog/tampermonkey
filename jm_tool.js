@@ -32,7 +32,7 @@ if (document.body.innerText.indexOf("该类型域名是用户发布的拍卖") !
     alert("⚠️别点了，这个坑很深，不要买");
 }
 //查找页面中文字是否有“一键检测域名注册状态”
-if (document.body.innerText.indexOf("竞拍号512508") != -1 || document.body.innerText.indexOf("竞拍号57399") != -1) {
+if (document.body.innerText.indexOf("竞拍号512508") != -1 || document.body.innerText.indexOf("竞拍号57399") != -1 || document.body.innerText.indexOf("竞拍号13113") != -1) {
     //弹窗提示
     alert("⚠️有傻逼小心点");
 }
